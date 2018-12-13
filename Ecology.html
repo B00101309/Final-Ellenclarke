@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Story of ITB</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/flaunt.js"></script>
+
+<div class="img">
+	<img src="images/logo.jpg" alt="ITB">
+</div>
+
+<div class="container">
+<div class="topnav" id="myTopnav">
+
+		<a href="Index.html" alt="Home">Home</a> 
+		<a href="About.html" alt="About">About</a> 
+		<a href="History.html" alt="History">History of ITB</a>
+		<a href="Ecology.html" alt="ecology" class="active">The ecological aspects of ITB</a> 
+		<a href="Cdm.html" alt="studentswork">Past pupils work</a>  
+		<a href="Contact.html" alt="contact">Contact</a>
+</div>
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/croi.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/2862-286.jpg" style="width:100%">front3.jpg
+  </div>
+  
+<div class="mySlides fade">
+    <img src="images/int2010.jpg" style="width:100%">
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+	var slideIndex = 0;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/croi.jpg" " style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/2862-286.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/int2010.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<body>
+<div class="headingEco">
+<h2> Ecology in ITB</h2>
+</div>
+
+<div class="Eco1">
+Loraine is a lecture of Horticulture and Biodiversity at ITB.
+<br>
+Ecology is the study of a habitat or environment which is effected by the cycle of nature e.g. a bird lays and egg in a nest, the birds in the eggs hatch, the feed on the larvae living on the tree leaves or worms in the soil. This soil is effected by the nitrogen cycle and air pollution of the surrounding environment. Life cycle of a habitat. 
+</div>
+	
+	<div class="Ecoimg1">
+	<img src="images/eco3.jpg">
+	</div>
+	
+<div class="Eco2">
+Itb has a large biodiverse habitat. There are Mediterranean flowers suitable for cooking on south facing banks, a circle of clean growing saplings in the heart of the campus by D block, large meadow and grass lands all of which allow fungi, birds such as buzzards, wrens and robins live and grow. 
+</div>
+
+<div class="eco2imgs">
+	<img src="images/ecomore.jpg">
+</div>
+
+<div class="Eco3">
+These habitats make home for many flora and fauna habitual to the Tolka Vally/Corduff/ Blanchardstown area of which ITB is situated.
+<br>
+The horticultural sector of ITB ( an area of study for students) have an aim to defeat climate change in the area by seeing ITB clean and ecologically friendly.With this growing ecosystem within ITB, the outter area ecosystem becomes cleaner. This is a little step to their goals on defeating climate change. They majority of these ecological aspects date back from the 1900's when our campus was an estate house owned by British farmers, the main focus for their up keep here in itb.
+</div>
+
+<div class="finalecoimg">
+	<img src="images/hedgeshistory.jpg">
+</div>
+
+<ul>
+	<li id="scale"> <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+	<li id="position"><a href="https://www.instagram.com"><img src="images/instagram.jpg" alt="Instagram"></a></li>
+	<li id="rotate"><a href="https://www.twitter.com"><img src="images/twitter.png" alt="twitter"></a></li>
+	<li id="rotate2"><a href="https://www.moodle.com"><img src="images/moodle.png" alt="moodle"></a></li>
+</ul>
+
+<div class="linksitemap">
+<a href="Sitemap.html" > Click here for our sitemap.</a>
+	</div>
+	
+<div class="footer">
+	<footer>Copyright Ellen Clarke</footer>
+<script>
+		var slideIndex=1;
+	showSlides(slideIndex);
+	
+	function plusSlides(n) {
+		showSlides (slideIndex += n);
+	}
+	function currentSlide (n) {
+		showsSlides (slideIndex = n);
+	}
+	
+	function showSlides(n)	{
+		var i;
+		var slides = document.getElementByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n> slides.length) {slideIndex = 1}
+		if (n<1) { slideIndex =slides.length}
+		for (i = 0; i <slides.length; i++){
+			slides[i].style.display="none";
+		}
+		for( i = 0; i<dots.length;i++){
+		dots [i].className = dots[i].className.replace("active","");
+		
+		}
+		
+		slides[slideIndex-1].style.display = "block";
+		dots[slidesIndex-1].className += "active";
+	}
+	
+	var slideIndex = 0;
+	showSlides ();
+	
+	function showSlides () {
+		
+		var i;
+		var slides=document.getElementsByClassName("mySlides");
+		for (i = 0; i< slides.length; i++){
+		slides [i].style.display = "none";
+	}
+		
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndes =1}
+		slides {slideIndex-1}.style.display = "block";
+		setTimeout(showSlides,2000); //Change imsge every 2 seconds
+	}
+		</script>
+	</div>	
+	
+</body>
+	</div>
+</html>
